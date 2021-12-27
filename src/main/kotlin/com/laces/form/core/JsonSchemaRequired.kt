@@ -1,4 +1,4 @@
-package com.laces.core.form.core
+package com.laces.form.core
 
 annotation class JsonSchemaRequired(val definitions: Array<RequiredField>)
 

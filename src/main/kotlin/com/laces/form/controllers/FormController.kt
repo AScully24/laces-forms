@@ -1,8 +1,8 @@
-package com.laces.core.form.controllers
+package com.laces.form.controllers
 
-import com.laces.core.form.core.Form
-import com.laces.core.form.dto.FormDto
-import com.laces.core.form.dto.FormService
+import com.laces.form.core.Form
+import com.laces.form.dto.FormDto
+import com.laces.form.dto.FormService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController

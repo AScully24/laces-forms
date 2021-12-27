@@ -1,7 +1,7 @@
-package com.laces.core.form.core
+package com.laces.form.core
 
 import com.kjetland.jackson.jsonSchema.annotations.JsonSchemaTitle
-import com.laces.core.form.core.FormAnnotations.FormData
+import com.laces.form.core.FormAnnotations.FormData
 import org.apache.commons.lang3.StringUtils.*
 
 fun getClassAsReadableName(clazz: Class<*>): String {

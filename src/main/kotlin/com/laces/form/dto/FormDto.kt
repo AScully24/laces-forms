@@ -1,4 +1,4 @@
-package com.laces.core.form.dto
+package com.laces.form.dto
 
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.node.NullNode

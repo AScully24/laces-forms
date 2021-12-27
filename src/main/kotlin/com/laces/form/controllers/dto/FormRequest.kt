@@ -1,4 +1,4 @@
-package com.laces.core.form.controllers.dto
+package com.laces.form.controllers.dto
 
 data class FormRequest(
         val formType: String?

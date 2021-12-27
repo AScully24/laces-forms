@@ -1,6 +1,6 @@
-package com.laces.core.form.dto
+package com.laces.form.dto
 
-import com.laces.core.form.core.Form
+import com.laces.form.core.Form
 
 data class FlowResponse(
         val title: String,

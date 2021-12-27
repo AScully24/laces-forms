@@ -1,10 +1,9 @@
-package com.laces.core.form.core
+package com.laces.form.core
 
 import com.fasterxml.jackson.databind.JsonNode
-import com.laces.core.form.core.FormAnnotations.FormData
-import com.laces.core.form.dto.FlowResponse
-import com.laces.core.form.dto.FlowStepResponse
-import com.laces.core.responses.FormAnnotationNotPresent
+import com.laces.form.core.FormAnnotations.FormData
+import com.laces.form.dto.FlowResponse
+import com.laces.form.dto.FlowStepResponse
 import org.springframework.stereotype.Component
 
 @Component
@@ -67,7 +66,7 @@ class FormRepository(
             formData.name == flowStep.formName || formData.groups.contains(flowStep.group)
 
     private fun createFormMetaData(clazz: Class<*>): Form {
-        val formAnnotation = clazz.getAnnotation(FormData::class.java) ?: throw FormAnnotationNotPresent()
+        val formAnnotation = clazz.getAnnotation(FormData::class.java) ?: throw RuntimeException()
         val title = getSchemaTitle(clazz)
         val name = getSchemaName(clazz)
         val schema: JsonNode = jsonSchemaCustomGenerator.constructModifiedSchema(clazz)

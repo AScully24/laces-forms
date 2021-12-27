@@ -1,4 +1,4 @@
-package com.laces.core.form.core
+package com.laces.form.core
 
 import org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider
 import org.springframework.core.type.filter.AnnotationTypeFilter

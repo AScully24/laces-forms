@@ -1,4 +1,4 @@
-package com.laces.core.form.core
+package com.laces.form.core
 
 import com.fasterxml.jackson.databind.JsonNode
 import java.util.function.Supplier

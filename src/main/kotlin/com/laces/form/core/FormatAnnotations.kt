@@ -1,4 +1,4 @@
-package com.laces.core.form.core
+package com.laces.form.core
 
 class FormatAnnotations {
     enum class FormatType(val formatName:String) {
